@@ -17,5 +17,5 @@ runs:
       shell: bash
 
     - name: Monification js
-      run: bin/js-minify.sh
+      run: bash bin/js-minify.sh
       shell: bash
