@@ -6,11 +6,11 @@ runs:
   steps:
     - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        npm install -g sass
-        npm install uglify-js -g
-      shell: bash
+    # - name: Install dependencies
+    #   run: |
+    #     npm install -g sass
+    #     npm install uglify-js -g
+    #   shell: bash
 
     - name: Monification css
       run: sass --style=compressed webroot/css
